@@ -1,0 +1,7 @@
+# Site settings
+title: Dual Digital
+email: info@dual.digital
+description: A small digital agency focusing on design and web development
+baseurl: ""
+url: "https://kbejko.github.io"
+exclude: ["node_modules", "gulpfile.js", "package.json"]

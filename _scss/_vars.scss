@@ -1,0 +1,31 @@
+//Words
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+$body-font: arial, sans-serif;
+$heading-font:  'Alfa Slab One', 'Rubik', sans-serif;
+$base-font-size:   18px;
+$heading-font-size: $base-font-size * 1.25;
+$small-font-size:  $base-font-size * .75;
+$base-line-height: 1.45;
+
+//Colors
+$bubblegum: #f88199; // Pink
+$midnight-sun: #fdb134; // Yellow
+$dhermi-11am: #afccdf; // Blue
+$fresh-asphalt: #292f36; // Gray
+$liber:  #fff8ee; // Offwhite
+$liber-pis: #f7efe2; // Cream
+
+//Shadows
+$box-shadow-light: 0 0 4px rgba(0, 0, 0, .14);
+$box-shadow-dark: 0 4px 8px rgba(0, 0, 0, .28);
+
+//Transitions
+$link-pop-trans-up: all 0.2s ease-out;
+$link-pop-trans-down: all 0.3s ease-out;
+
+//Breakpoints
+$three-twenty: 20rem;   //320px
+$four-hundred: 25rem;   //400px
+$seven-twenty: 45rem;   //720px
+$nine-sixty:   60rem;   //960px
+$max-body-width: 75rem; //1200px
