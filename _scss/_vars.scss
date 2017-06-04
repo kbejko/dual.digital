@@ -1,11 +1,13 @@
 //Words
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
-$body-font: arial, sans-serif;
-$heading-font:  'Alfa Slab One', 'Rubik', sans-serif;
-$base-font-size:   18px;
-$heading-font-size: $base-font-size * 1.25;
+// @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,900|Rammetto+One');
+$body-font: 'Muli', futura, helvetica-neue, sans-serif;
+$heading-font:  'Rammetto One', 'Muli', sans-serif;
+$base-font-size:   16px;
+$heading-font-size: $base-font-size * 1.5;
 $small-font-size:  $base-font-size * .75;
 $base-line-height: 1.45;
+$heading-line-height: 1.15;
 
 //Colors
 $bubblegum: #f88199; // Pink

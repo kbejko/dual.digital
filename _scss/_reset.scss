@@ -13,21 +13,27 @@
 html, body { height: 100%; }
 
 body {
-    background-color: black;
-    font: 13.34px Helvetica, Arial, sans-serif;
-    font-size: small;
-    text-align: center;
+    background-color: $liber;
+    color: $fresh-asphalt;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-family: $body-font;
+    text-align: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%; }
+  color: $fresh-asphalt;
+  font-size: $heading-font-size;
+  line-height: $heading-line-height;
+  font-family: $heading-font;
+  }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 8px; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: $dhermi-11am; }
+a:hover   { color: $bubblegum; }
+a:visited { color: $bubblegum; }
 
 /*****************************************************************************/
 /*
@@ -55,18 +61,18 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 
-.site {
-    font-size: 115%;
-    text-align: justify;
-    width: 42em;
-    margin: 3em auto 2em;
-    line-height: 1.5em;
-}
+// .site {
+//     // font-size: 115%;
+//     // text-align: justify;
+//     width: 42em;
+//     margin: 3em auto 2em;
+//     // line-height: 1.5em;
+// }
 
-.header a {
-    font-weight: bold;
-    text-decoration: none;
-}
+// .header a {
+//     font-weight: bold;
+//     text-decoration: none;
+// }
 
 .title {
     display: inline-block;

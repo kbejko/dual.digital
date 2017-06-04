@@ -1,33 +1,21 @@
 @import "vars";
 @import "reset";
 
-body {
-    background: $liber-pis;
-}
+
 .site {
-  padding: 1rem;
-  margin: 0 auto;
-  max-width: 480px;
-  margin-top: 2rem;
-  font-family: $heading-font;
-  font-size: 6rem;
-  line-height: 1;
-  color: $fresh-asphalt;
-}
-
-p {
-  color: $fresh-asphalt;
-  font-family: $body-font;
-  font-size: 1.675rem;
-  line-height: $base-line-height;
-  max-width: 360px;
-}
-
-.bullet svg {
-  align-self: center;
-  padding-right: 1rem;
-}
-
-.bullet {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 60vw;
+}
+
+header h1{
+  font-size: 6rem;
 }

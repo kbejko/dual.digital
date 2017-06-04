@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
+@import url("https://fonts.googleapis.com/css?family=Muli:400,900|Rammetto+One");
 /*****************************************************************************/
 /*
 /* Common
@@ -13,28 +13,33 @@ html, body {
   height: 100%; }
 
 body {
-  background-color: black;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center; }
+  background-color: #fff8ee;
+  color: #292f36;
+  font-size: 16px;
+  line-height: 1.45;
+  font-family: "Muli", futura, helvetica-neue, sans-serif;
+  text-align: left; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  color: #292f36;
+  font-size: 24px;
+  line-height: 1.15;
+  font-family: "Rammetto One", "Muli", sans-serif; }
 
 h1 {
-  margin-bottom: 1em; }
+  margin-bottom: 8px; }
 
 p {
   margin: 1em 0; }
 
 a {
-  color: #00a; }
+  color: #afccdf; }
 
 a:hover {
-  color: #000; }
+  color: #f88199; }
 
 a:visited {
-  color: #a0a; }
+  color: #f88199; }
 
 /*****************************************************************************/
 /*
@@ -58,17 +63,6 @@ a:visited {
 /* Site
 /*
 /*****************************************************************************/
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em; }
-
-.header a {
-  font-weight: bold;
-  text-decoration: none; }
-
 .title {
   display: inline-block;
   margin-bottom: 2em; }
@@ -142,35 +136,36 @@ a:visited {
 .post pre.terminal code {
   background-color: #333; }
 
-body {
-  background: #f7efe2; }
-
 .site {
-  padding: 1rem;
-  margin: 0 auto;
-  max-width: 480px;
-  margin-top: 2rem;
-  font-family: "Alfa Slab One", "Rubik", sans-serif;
-  font-size: 6rem;
-  line-height: 1;
-  color: #292f36; }
-
-p {
-  color: #292f36;
-  font-family: arial, sans-serif;
-  font-size: 1.675rem;
-  line-height: 1.45;
-  max-width: 360px; }
-
-.bullet svg {
-  -webkit-align-self: center;
-      -ms-flex-item-align: center;
-              -ms-grid-row-align: center;
-          align-self: center;
-  padding-right: 1rem; }
-
-.bullet {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh; }
+
+header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  width: 60vw; }
+
+header h1 {
+  font-size: 6rem; }
